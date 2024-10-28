@@ -1,0 +1,36 @@
+body {
+    background-color: #a64d56;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(green, yellow);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.choicebtn {
+    background-color: #beaffd;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#result {
+    background-color: #3e25e3;
+    font-weight: 700;
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    border: 2px solid rgb(16, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    margin-left: 250px;
+}
