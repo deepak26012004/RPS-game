@@ -10,14 +10,25 @@
 
 <body>
     <h1>Rock Paper Scissors</h1>
-    <div>
+    <div class="rps-button">
         <button class="choicebtn" onclick="playGame('Rock')">Rock</button>
         <button class="choicebtn" onclick="playGame('Paper')">Paper</button>
         <button class="choicebtn" onclick="playGame('Scissors')">Scissors</button>
     </div>
 
-
-    <p id="result">Play the Game!</p>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="computer-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="result-button">
+        <p id="result">Play the Game!</p>
+    </div>
     <script src="script.js"></script>
 </body>
 
