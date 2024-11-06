@@ -44,10 +44,10 @@ h1 {
 }
 
 .score {
-    margin: 20px;
+    margin-left: 20px;
 }
 
-.result-button {
+.resultbtn {
     display: flex;
     align-items: center;
     justify-content: center;
